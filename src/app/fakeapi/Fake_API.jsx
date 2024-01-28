@@ -18,8 +18,8 @@ const Fake_API = () => {
       {data.map((data) => {
         return (
             <>
-            <Link href={`fakeapi/${data.id}`} style={{cursor:"pointer",textDecoration:'none',color:'black'}}>title {data.id} : {data.title}</Link>
-            <br/>
+            <Link href={`fakeapi/${data.id}`} style={{cursor:"pointer",textDecoration:'none',color:'black',marginBottom:"40px"}}>title {data.id} : {data.title}</Link>
+            
             </>
         )
       })}
